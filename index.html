@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+     <script src="https://cdn.tailwindcss.com"></script>
     <title>Flower Shop</title>
 </head>
 <body>
                              <!-- header area -->
     <header>
-        <nav class="flex justify-around items-center px-4 py-4  ">
-            <div class=" mt-10 mr-250"><img src="assets/logo.png" alt="" class="h-10 w-full"></div>
+        <nav class="flex justify-around items-center px-4 py-4 ml-10">
+            <div class=" mt-10"><img src="assets/logo.png" alt="" class="h-10 w-full"></div>
 
             <div class="ancor hidden sm:flex justify-between items-center mt-2 gap-5">
                 <a href="">Home</a>
@@ -35,7 +36,7 @@
     </section>
 
 
-    <div class="plant text-center mx-auto px-4 sm:px-6 lg:px-8 max-w-2xl mt-20">
+    <div class="plant text-center mx-auto px-4 sm:px-6 lg:px-8 max-w-2xl mt-20 mb-10">
         <h3 class=" text-2xl sm:text-3xl font-semibold"><span class="text-orange-500 font-bold" >Our</span> Plants</h3>
         <p class="mt-4 text-gray-600 text-sm sm:text-base leading-relaxed">Indulge your senses with the beauty and fragrance of our fresh flower shop. <br> 
            From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
@@ -45,63 +46,59 @@
     <div class="grid grid-cols-1 gap-4 p-4 
             sm:grid-cols-2 
             md:grid-cols-4">
-  <div class="flower text-center border p-4">
+  <div class="flower text-center  ">
     <img src="assets/sample-flower-image.png" alt="" class="mx-auto mb-2">
     <p>Lily Blossom</p>
     <h2 class="text-xl font-semibold">20 USD</h2>
   </div>
-  <div class="flower text-center border p-4">
+  <div class="flower text-center ">
     <img src="assets/sample-flower-image.png" alt="" class="mx-auto mb-2">
     <p>Lily Blossom</p>
     <h2 class="text-xl font-semibold">20 USD</h2>
   </div>
-  <div class="flower text-center border p-4">
+  <div class="flower text-center ">
     <img src="assets/sample-flower-image.png" alt="" class="mx-auto mb-2">
     <p>Lily Blossom</p>
     <h2 class="text-xl font-semibold">20 USD</h2>
   </div>
-  <div class="flower text-center border p-4">
+  <div class="flower text-center ">
     <img src="assets/sample-flower-image.png" alt="" class="mx-auto mb-2">
     <p>Lily Blossom</p>
     <h2 class="text-xl font-semibold">20 USD</h2>
   </div>
-  <div class="flower text-center border p-4">
+  <div class="flower text-center ">
     <img src="assets/sample-flower-image.png" alt="" class="mx-auto mb-2">
     <p>Lily Blossom</p>
     <h2 class="text-xl font-semibold">20 USD</h2>
   </div>
-  <div class="flower text-center border p-4">
+  <div class="flower text-center ">
     <img src="assets/sample-flower-image.png" alt="" class="mx-auto mb-2">
     <p>Lily Blossom</p>
     <h2 class="text-xl font-semibold">20 USD</h2>
   </div>
-  <div class="flower text-center border p-4">
+  <div class="flower text-center ">
     <img src="assets/sample-flower-image.png" alt="" class="mx-auto mb-2">
     <p>Lily Blossom</p>
     <h2 class="text-xl font-semibold">20 USD</h2>
   </div>
-  <div class="flower text-center border p-4">
+  <div class="flower text-center ">
     <img src="assets/sample-flower-image.png" alt="" class="mx-auto mb-2">
     <p>Lily Blossom</p>
     <h2 class="text-xl font-semibold">20 USD</h2>
   </div>
 </div>
 
-
-
 <div class="mid-area2">
 
-   
-
-  <div class="bg-gray-100 py-12 ml-25 mr-25">
+  <div class="bg-gray-100 py-12 ml-25 ">
     <div class="container mx-auto flex flex-col md:flex-row items-center gap-8 px-4">
       
-      <div class="relative">
-        <img src="assets/flower-store.png" alt="Flower Shop" class="w-full max-w-md rounded-lg shadow-lg">
-        <img src="assets/trusted-badge.png" alt="Trusted Seller Badge" class="absolute -top-6 -right-6 w-28 h-28">
+      <div class="relative ml-90">
+        <img src="assets/flower-store.png" alt="" class="w-full max-w-md rounded-lg shadow-lg">
+        <img src="assets/trusted-badge.png" alt="" class="absolute -top-6 -right-6 w-28 h-28">
       </div>
 
-      <div class="max-w-xl text-center md:text-left">
+      <div class="max-w-xl text-center md:text-left ">
         <h2 class="text-3xl font-bold text-gray-900 mb-4">Flower & Plants Lover</h2>
         <ul class="space-y-4 text-gray-700 text-base leading-relaxed">
           <li>• Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
@@ -125,61 +122,86 @@
     </p>
   </div>
 
-  <div class="max-w-7xl mx-auto flex flex-col lg:flex-row gap-6">
-    <div class="flex flex-col gap-6 w-full lg:w-1/2">
-      <div class="relative h-48 sm:h-56 md:h-60 rounded-xl overflow-hidden shadow-md">
-        <img src="assets/deal-bloom.png" alt="Bloom Plant" class="object-cover w-full h-full" />
-        <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-white text-center px-4">
-          <h3 class="text-lg sm:text-xl font-semibold">60% Off | Bloom Plant</h3>
-          <button class="mt-2 text-sm underline">Shop Now</button>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-5 items-center ml-40">
+      <div class="flex flex-col gap-6">
+        <div class="bg-black rounded-xl overflow-hidden relative h-40 sm:h-52">
+
+          <img src="assets/hero-flower.png" alt="" class="absolute inset- w-full h-full object-cover opacity-80" />
+
+          <div class="relative z-10 h-full flex flex-col justify-center items-center text-white text-center">
+            <h3 class="text-xl font-semibold">60% Off | Bloom Plant</h3>
+            <a href="#" class="mt-2 underline text-sm">Shop Now</a>
+          </div>
+        </div>
+
+        <div class="bg-black rounded-xl overflow-hidden relative h-40 sm:h-52">
+          <img src="assets/sample-flower-image.png" alt="" class="absolute inset-0 w-full h-full object-cover opacity-80" />
+          <div class="relative z-10 h-full flex flex-col justify-center items-center text-white text-center">
+            <h3 class="text-xl font-semibold">30% Off | Ana Plant</h3>
+            <a href="#" class="mt-2 underline text-sm">Shop Now</a>
+          </div>
         </div>
       </div>
 
-      <div class="relative h-48 sm:h-56 md:h-60 rounded-xl overflow-hidden shadow-md">
-        <img src="assets/deal-ana.png" alt="Ana Plant" class="object-cover w-full h-full" />
-        <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-white text-center px-4">
-          <h3 class="text-lg sm:text-xl font-semibold">30% Off | Ana Plant</h3>
-          <button class="mt-2 text-sm underline">Shop Now</button>
+      <div class="bg-black rounded-xl overflow-hidden relative h-full w-180 [332px]">
+        
+        <img src="assets/deal-zabo.png" alt="" class="absolute inset-0 w-full h-full object-cover opacity-80" />
+        <div class="relative z-10 h-full flex flex-col justify-center items-center text-white text-center px-4">
+          <h3 class="text-2xl font-bold">25% Off | Zabo Plant</h3>
+          <a href="#" class="mt-2 underline text-sm">Shop Now</a>
         </div>
-      </div>
-    </div>
-
-    <div class="relative h-126 w-full lg:w-1/2 rounded-xl overflow-hidden shadow-md">
-      <img src="assets/deal-zabo.png" alt="Zabo Plant" class="object-cover w-full h-full" />
-      <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center text-white text-center px-4">
-        <h3 class="text-2xl sm:text-3xl font-bold">25% Off | Zabo Plant</h3>
-        <button class="mt-4 text-base underline">Shop Now</button>
       </div>
     </div>
   </div>
 </div>
 
     </div>
+                                    <!-- mid area -->
+
+
+  
 
 
 
-<section class="relative h-80 sm:h-96 w-full overflow-hidden">
-  <img src="assets/news-letter-bg.png" alt="Newsletter Background" class="absolute inset-0 w-full h-full object-cover" />
 
-  <div class="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-center items-center px-4 text-white text-center">
-    <h2 class="text-2xl sm:text-3xl font-bold mb-6">Join the colorful Bunch</h2>
+<div class="m-0 p-0">
 
-    <form class="flex w-full max-w-md bg-white rounded overflow-hidden shadow-md">
-      <input
-        type="email"
-        placeholder="Write email"
-        class="w-full px-4 py-2 text-gray-700 focus:outline-none"
-      />
-      <button
-        type="submit"
-        class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2 font-semibold"
-      >
-        Subscribe
-      </button>
-    </form>
-  </div>
-</section>
+  <!-- Newsletter Section -->
+  <section
+    class="relative bg-cover bg-center bg-no-repeat text-white py-20 px-4"
+    style="background-image: url('./assets/news-letter-bg.png');"
+  >
+    <!-- Overlay (optional if text is hard to read) -->
+    <div class="absolute inset-0 bg-black bg-opacity-40"></div>
 
+    <!-- Content -->
+    <div class="relative z-10 max-w-3xl mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-6">Join the colorful Bunch</h2>
+      
+      <form class="flex flex-col sm:flex-row justify-center items-center gap-4">
+        <input
+          type="email"
+          placeholder="Write email"
+          class="w-full sm:w-[300px] px-4 py-3 rounded-full text-white focus:outline-none  border-2 border-white"
+          required
+        />
+        <button
+          type="submit"
+          class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-full font-semibold transition"
+        >
+          Subscribe
+        </button>
+      </form>
+    </div>
+  </section>
+
+
+
+
+
+
+</div>                     
+                                           <!-- footer area -->
 <footer class="bg-white py-10 px-4 sm:px-8 lg:px-20">
   <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left">
     
